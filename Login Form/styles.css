@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body *{
+    box-sizing: border-box;
+
+}
+
+
+form{
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form .inputs{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs .inputWrapper{
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-left: 5px solid #F08080
+  ;
+  border-radius: 4px;
+}
+
+form span{
+    width: 1.5px;
+    height: 20px;
+    background-color: rgb(200, 200, 200);
+}
+
+form i{
+    font-size: 20px;
+    color: rgb(177, 177, 177);
+}
+
+form .inputs .inputWrapper input{
+    width: 80%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+}
+
+form .inputs .inputWrapper input[type=password]{
+    letter-spacing: 0.8px;
+}
+
+form .other{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .other *{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: black;
+}
+
+form .other input{
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+form #forgotPwd{
+    font-weight: 600;
+}
+
+form button{
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #F08080;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+
+form button:hover{
+    background-color: #F08080;
+}
+
+
+
+
+
+
+
+
+
